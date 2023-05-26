@@ -1,0 +1,55 @@
+@import url(~normalize.css);
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700&family=Roboto+Mono:wght@400;700&display=swap");
+.portfolio {
+  padding: 74px 16px 0 0; }
+  .portfolio__contact {
+    border-radius: 64px;
+    color: #fff;
+    background: #4da8ff;
+    display: inline-block;
+    padding: 4px 24px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    text-decoration: none; }
+  .portfolio__paragraph {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 48px; }
+  .portfolio__header {
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    color: #234361; }
+  .portfolio__hello {
+    display: none; }
+  .portfolio__image {
+    box-sizing: content-box;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    border: 16px solid #f6f9fd; }
+  .portfolio__image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .portfolio__link {
+    font-weight: bold;
+    color: #4da8ff;
+    text-decoration: none; }
+  .portfolio__specail {
+    color: #1070ca; }
+
+html {
+  box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+body {
+  font-family: Nunito;
+  color: #425a70; }

@@ -1,7 +1,53 @@
-.portfolio{
-    padding: 74px 0 0 0;
-    &_image{
-        width: 96px;
-        height: 96px;
-    }
+@import "./variables";
+.portfolio {
+  padding: 74px 16px 0 0;
+  &__contact{
+    border-radius: 64px;
+    color: #fff;
+    background: $lightBlue;
+    display: inline-block;
+    padding: 4px 24px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    text-decoration: none;
+  }
+  &__paragraph{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 48px;
+  } 
+   &__header {
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    color: $textDark;
+  }
+  &__hello{
+    display: none;
+  }
+  &__image {
+    box-sizing: content-box;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    border: 16px solid #f6f9fd;
+  }
+  &__image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__link{
+    font-weight: bold;
+    color:$lightBlue;
+    text-decoration: none;
+  }
+  &__specail{
+    color:$blue;
+
+}
 }
