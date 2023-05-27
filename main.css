@@ -1,7 +1,7 @@
 @import url(~normalize.css);
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700&family=Roboto+Mono:wght@400;700&display=swap");
 .portfolio {
-  padding: 74px 16px 0 0; }
+  padding: 74px 16px 88px; }
   .portfolio__contact {
     border-radius: 64px;
     color: #fff;
@@ -41,6 +41,63 @@
     text-decoration: none; }
   .portfolio__specail {
     color: #1070ca; }
+
+.skills {
+  background: #1070ca;
+  color: #fff;
+  padding: 64px 16px 88px; }
+  .skills__header {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center; }
+
+.skills-list {
+  font-style: normal;
+  color: #dbeaf7;
+  width: 288px;
+  margin: 0 auto;
+  list-style-type: none;
+  line-height: 24px;
+  padding: 0; }
+  .skills-list__item {
+    padding: 0 0 0 24px;
+    margin: 0 0 16px;
+    position: relative;
+    font-size: 16px;
+    line-height: 24px; }
+    .skills-list__item:before {
+      position: absolute;
+      left: 0;
+      top: 7px;
+      display: block;
+      content: "";
+      width: 12px;
+      height: 9px;
+      background: url("../../src/pictures/small-tick-green.svg"); }
+      .skills-list--blue .skills-list__item:before {
+        background: url("../../src/pictures/small-tick-blue.svg"); }
+      .skills-list--dot .skills-list__item:before {
+        background: #dbeaf7;
+        width: 3px;
+        height: 3px;
+        border-radius: 50%;
+        top: 11px;
+        left: 5px; }
+
+.skills-section {
+  margin-top: 64px; }
+  .skills-section__emoji {
+    font-size: 64px;
+    line-height: 64px;
+    display: block;
+    text-align: center; }
+  .skills-section__header {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 44px;
+    text-align: center;
+    margin: 16px 0 24px; }
 
 html {
   box-sizing: border-box; }
