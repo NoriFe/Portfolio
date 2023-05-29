@@ -1,4 +1,4 @@
-@import url(~normalize.css);
+@import url(..//..//node_modules/normalize.css/normalize.css);
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700&family=Roboto+Mono:wght@400;700&display=swap");
 .portfolio {
   padding: 74px 16px 88px; }
@@ -98,6 +98,63 @@
     line-height: 44px;
     text-align: center;
     margin: 16px 0 24px; }
+
+.projects {
+  padding: 64px 16px 0; }
+  .projects__description {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 46px; }
+  .projects__header {
+    font-size: 36px;
+    line-height: 48px;
+    color: #234361; }
+
+.project {
+  background: #212528;
+  border-radius: 16px;
+  overflow: hidden;
+  color: #a3a3a3;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 24px;
+  color: #808082;
+  font-size: Roboto Mono;
+  font-size: 13px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25); }
+  .project__circle {
+    display: block;
+    width: 8px;
+    height: 8px;
+    background: #464a4d;
+    border-radius: 50%;
+    margin-right: 8px; }
+  .project__content {
+    padding: 24px 16px; }
+  .project__grid {
+    display: grid;
+    grid-template-columns: 102px 1fr;
+    column-gap: 8px; }
+  .project__label {
+    display: block;
+    text-align: right;
+    color: #808082;
+    font-weight: normal; }
+  .project__link {
+    color: #14b5d0; }
+  .project__title {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 24px;
+    color: #fff; }
+  .project__window {
+    height: 40px;
+    background: #1e1e1e;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 16px; }
 
 html {
   box-sizing: border-box; }
