@@ -2,6 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700&family=Roboto+Mono:wght@400;700&display=swap");
 .portfolio {
   padding: 74px 16px 88px; }
+  @media (min-width: 768px) {
+    .portfolio {
+      max-width: 768px;
+      margin: 0 auto; } }
+  .portfolio__cloud {
+    position: absolute;
+    left: calc(50% + 90px);
+    top: -26px; }
   .portfolio__contact {
     border-radius: 64px;
     color: #fff;
@@ -14,33 +22,66 @@
     text-decoration: none; }
   .portfolio__description {
     text-align: center; }
-  .portfolio__paragraph {
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 32px;
-    text-align: center;
-    margin-bottom: 48px; }
   .portfolio__header {
     font-size: 26px;
     line-height: 32px;
     text-align: center;
     color: #234361; }
+    @media (min-width: 960px) {
+      .portfolio__header {
+        font-size: 32px;
+        line-height: 40px; } }
   .portfolio__hello {
     display: none; }
+    @media (min-width: 960px) {
+      .portfolio__hello {
+        display: block;
+        background: #1070ca;
+        color: #fff;
+        padding: 16px 19px;
+        border-radius: 16px;
+        font-weight: bold;
+        font-size: 32px;
+        position: relative; }
+        .portfolio__hello:after {
+          content: "";
+          position: absolute;
+          top: 100%;
+          left: 32px;
+          display: block;
+          width: 17.42px;
+          height: 22.66px;
+          background: url(../../src/pictures/Speech_cloud.svg); } }
   .portfolio__image {
     box-sizing: content-box;
     width: 96px;
     height: 96px;
     border-radius: 50%;
     border: 16px solid #f6f9fd; }
+    @media (min-width: 960px) {
+      .portfolio__image {
+        width: 178px;
+        height: 178px;
+        border: 24px solid #f6f9fd; } }
   .portfolio__image-container {
     display: flex;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    position: relative; }
   .portfolio__link {
     font-weight: bold;
     color: #4da8ff;
     text-decoration: none; }
+  .portfolio__paragraph {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 48px; }
+    @media (min-width: 960px) {
+      .portfolio__paragraph {
+        font-size: 20px;
+        line-height: 40px; } }
   .portfolio__specail {
     color: #1070ca; }
 
@@ -104,7 +145,7 @@
 .contact {
   background: #dbeaf7;
   padding: 64px 16px 88px; }
-  .contact__description {
+  .contact__decription {
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
@@ -204,6 +245,14 @@
     display: flex;
     align-items: center;
     padding: 0 0 0 16px; }
+
+.projects-grid {
+  display: grid;
+  column-gap: 24px;
+  row-gap: 24px; }
+  @media (min-width: 768px) {
+    .projects-grid {
+      grid-template-columns: 1fr 1fr; } }
 
 html {
   box-sizing: border-box; }

@@ -1,7 +1,16 @@
-@import "./variables";
+@import "variables";
 .portfolio {
   padding: 74px 16px 88px;
-  &__contact{
+  @media (min-width: $tablet) {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  &__cloud {
+    position: absolute;
+    left: calc(50% + 90px);
+    top: -26px;
+  }
+  &__contact {
     border-radius: 64px;
     color: #fff;
     background: $lightBlue;
@@ -13,23 +22,41 @@
     text-decoration: none;
   }
   &__description {
-text-align: center;
-  }
-  &__paragraph {
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 32px;
     text-align: center;
-    margin-bottom: 48px;
-  } 
-   &__header {
+  }
+  
+  &__header {
     font-size: 26px;
     line-height: 32px;
     text-align: center;
     color: $textDark;
+    @media (min-width: $desktop) {
+      font-size: 32px;
+      line-height: 40px;
+    }
   }
   &__hello {
     display: none;
+    @media (min-width: $desktop) {
+      display: block;
+      background: $blue;
+      color: #fff;
+      padding: 16px 19px;
+      border-radius: 16px;
+      font-weight: bold;
+      font-size: 32px;
+      position: relative;
+      &:after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 32px;
+        display: block;
+        width: 17.42px;
+        height: 22.66px;
+        background: url(../../src/pictures/Speech_cloud.svg);
+      }
+    }
   }
   &__image {
     box-sizing: content-box;
@@ -37,20 +64,36 @@ text-align: center;
     height: 96px;
     border-radius: 50%;
     border: 16px solid #f6f9fd;
+    @media (min-width: $desktop) {
+      width: 178px;
+      height: 178px;
+      border: 24px solid #f6f9fd;
+    }
   }
   &__image-container {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
   }
 
   &__link {
     font-weight: bold;
-    color:$lightBlue;
+    color: $lightBlue;
     text-decoration: none;
   }
+  &__paragraph {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 48px;
+    @media (min-width:$desktop) {
+      font-size: 20px;
+      line-height: 40px;
+    }
+  }
   &__specail {
-    color:$blue;
-
-}
+    color: $blue;
+  }
 }
