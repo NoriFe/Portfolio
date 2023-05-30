@@ -12,7 +12,10 @@
     line-height: 40px;
     text-decoration: none;
   }
-  &__paragraph{
+  &__description {
+text-align: center;
+  }
+  &__paragraph {
     font-weight: 300;
     font-size: 16px;
     line-height: 32px;
@@ -25,7 +28,7 @@
     text-align: center;
     color: $textDark;
   }
-  &__hello{
+  &__hello {
     display: none;
   }
   &__image {
@@ -41,12 +44,12 @@
     justify-content: center;
   }
 
-  &__link{
+  &__link {
     font-weight: bold;
     color:$lightBlue;
     text-decoration: none;
   }
-  &__specail{
+  &__specail {
     color:$blue;
 
 }

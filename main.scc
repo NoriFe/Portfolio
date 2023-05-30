@@ -104,7 +104,7 @@
 .contact {
   background: #dbeaf7;
   padding: 64px 16px 88px; }
-  .contact__description {
+  .contact__decription {
     font-style: normal;
     font-weight: 300;
     font-size: 16px;

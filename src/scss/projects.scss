@@ -1,5 +1,6 @@
+
 .projects {
-  padding: 64px 16px 0;
+  padding: 64px 16px 88px;
   &__description {
     font-weight: 300;
     font-size: 16px;
@@ -11,6 +12,7 @@
     font-size: 36px;
     line-height: 48px;
     color: $textDark;
+    text-align: center;
   }
 }
 .project {

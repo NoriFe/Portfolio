@@ -2,6 +2,8 @@
 @import "portfolio.scss";
 @import "skills.scss";
 @import "variables";
+@import "./contact.scss";
+@import "socials.scss";
 @import "projects.scss";
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700&family=Roboto+Mono:wght@400;700&display=swap');
 
@@ -10,10 +12,10 @@ html{
 }
 *,
 *:before,
-*:after{
+*:after {
   box-sizing: inherit;
 }
-body{
+body {
   font-family: Nunito;
   color: $text;
 }

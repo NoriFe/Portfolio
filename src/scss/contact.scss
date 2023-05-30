@@ -1,0 +1,33 @@
+@import "./variables";
+.contact {
+    background: $lighterBlue;
+    padding:64px 16px 88px;
+    &__decription {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 32px;
+        text-align: center;
+    }
+    &__header {
+        font-size: 36px;
+        line-height: 48px;
+        color: $textDark;
+        text-align: center;
+    }
+    &__links {
+        text-align: center;
+    }
+    &__mail {
+        border-radius: 64px;
+    color: #fff;
+    background: $lightBlue;
+    display: inline-block;
+    padding: 4px 24px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    text-decoration: none;
+    
+    }
+}
