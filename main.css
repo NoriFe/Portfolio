@@ -226,12 +226,22 @@
     font-size: 16px;
     line-height: 32px;
     text-align: center;
-    margin-bottom: 46px; }
+    max-width: 786px;
+    margin: 0 auto 46px; }
+    @media (min-width: 960px) {
+      .projects__description {
+        font-size: 20px;
+        line-height: 40px;
+        margin-bottom: 128px; } }
   .projects__header {
     font-size: 36px;
     line-height: 48px;
     color: #234361;
     text-align: center; }
+    @media (min-width: 960px) {
+      .projects__header {
+        font-size: 48px;
+        line-height: 56px; } }
 
 .project {
   background: #212528;
@@ -245,6 +255,10 @@
   font-size: Roboto Mono;
   font-size: 13px;
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25); }
+  @media (min-width: 960px) {
+    .project {
+      font-size: 16px;
+      line-height: 24px; } }
   .project__circle {
     display: block;
     width: 8px;
@@ -254,10 +268,19 @@
     margin-right: 8px; }
   .project__content {
     padding: 24px 16px; }
+    @media (min-width: 960px) {
+      .project__content {
+        padding: 24px 48px 82px; } }
   .project__grid {
     display: grid;
     grid-template-columns: 102px 1fr;
-    column-gap: 8px; }
+    column-gap: 8px;
+    margin: 0 0 8px 0; }
+    @media (min-width: 960px) {
+      .project__grid {
+        grid-template-columns: 116px 1fr; } }
+    .project__grid--description {
+      margin-bottom: 24px; }
   .project__label {
     display: block;
     text-align: right;
@@ -269,7 +292,12 @@
     font-weight: bold;
     font-size: 13px;
     line-height: 24px;
-    color: #fff; }
+    color: #fff;
+    margin-top: 24px; }
+    @media (min-width: 960px) {
+      .project__title {
+        font-size: 16px;
+        line-height: 24px; } }
   .project__window {
     height: 40px;
     background: #1e1e1e;

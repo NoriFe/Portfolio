@@ -6,13 +6,23 @@
     font-size: 16px;
     line-height: 32px;
     text-align: center;
-    margin-bottom: 46px;
+    max-width: 786px;
+    margin: 0 auto 46px;
+    @media (min-width: $desktop) {
+      font-size: 20px;
+      line-height: 40px;
+      margin-bottom: 128px;
+    }
   }
   &__header {
     font-size: 36px;
     line-height: 48px;
     color: $textDark;
     text-align: center;
+    @media (min-width: $desktop) {
+      font-size: 48px;
+      line-height: 56px;
+    }
   }
 }
 .project {
@@ -27,6 +37,10 @@
   font-size: Roboto Mono;
   font-size: 13px;
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+  @media (min-width: $desktop) {
+    font-size: 16px;
+    line-height: 24px;
+  }
   &__circle {
     display: block;
     width: 8px;
@@ -37,11 +51,21 @@
   }
   &__content {
     padding: 24px 16px;
+    @media (min-width: $desktop) {
+      padding: 24px 48px 82px;
+    }
   }
   &__grid {
     display: grid;
     grid-template-columns: 102px 1fr;
     column-gap: 8px;
+    margin: 0 0 8px 0;
+    @media (min-width: $desktop) {
+      grid-template-columns: 116px 1fr;
+    }
+    &--description {
+      margin-bottom: 24px;
+    }
   }
   &__label {
     display: block;
@@ -57,6 +81,11 @@
     font-size: 13px;
     line-height: 24px;
     color:#fff;
+    margin-top: 24px;
+    @media (min-width: $desktop) {
+      font-size: 16px;
+      line-height: 24px;
+    }
   }
   &__window {
     height: 40px;
