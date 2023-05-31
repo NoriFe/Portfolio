@@ -182,13 +182,28 @@
     font-size: 16px;
     line-height: 32px;
     text-align: center; }
+    @media (min-width: 960px) {
+      .contact__description {
+        font-size: 20px;
+        line-height: 40pxpx; } }
   .contact__header {
     font-size: 36px;
     line-height: 48px;
     color: #234361;
     text-align: center; }
+    @media (min-width: 960px) {
+      .contact__header {
+        font-size: 48px;
+        line-height: 56px; } }
   .contact__links {
     text-align: center; }
+    @media (min-width: 960px) {
+      .contact__links {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 580px;
+        margin: 128px auto 0; } }
   .contact__mail {
     border-radius: 64px;
     color: #fff;
@@ -206,6 +221,9 @@
   display: flex;
   justify-content: center;
   margin: 56px 64px; }
+  @media (min-width: 960px) {
+    .socials {
+      margin: 0; } }
   .socials__item {
     margin: 0 12px; }
   .socials__link {

@@ -8,7 +8,10 @@
         font-size: 16px;
         line-height: 32px;
         text-align: center;
-       
+        @media (min-width: $desktop) {
+            font-size:20px;
+            line-height: 40pxpx;
+          }
 
     }
     &__header {
@@ -16,9 +19,20 @@
         line-height: 48px;
         color: $textDark;
         text-align: center;
+        @media (min-width: $desktop) {
+            font-size: 48px;
+            line-height: 56px;
+          }
     }
     &__links {
         text-align: center;
+        @media (min-width: $desktop) {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 580px;
+            margin: 128px auto 0;
+          }
     }
     &__mail {
         border-radius: 64px;
