@@ -5,6 +5,9 @@
     max-width: 768px;
     margin: 0 auto;
   }
+  @media (min-width: $desktop) {
+    max-width: 100%;
+  }
   &__cloud {
     position: absolute;
     left: calc(50% + 90px);
@@ -23,6 +26,27 @@
   }
   &__description {
     text-align: center;
+    @media (min-width: $desktop) {
+      max-width: 786px;
+      margin: 0 auto;
+      position: relative;
+      &::before, &::after {
+        width: 82.94px;
+        height: 254.88px;
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+      }
+      &::before {
+        background: url(../../src/pictures/left.svg);
+        right:100%;
+      }
+      &::after {
+        background: url(../../src/pictures/right.svg);
+        left:100%;
+      }
+    }
   }
   
   &__header {
@@ -93,7 +117,7 @@
       line-height: 40px;
     }
   }
-  &__specail {
+  &__special {
     color: $blue;
   }
 }

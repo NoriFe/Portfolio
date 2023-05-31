@@ -4,11 +4,23 @@
   background: $blue;
   color: #fff;
   padding: 64px 16px 88px;
-  &__header {
+  &__columns {
+    @media (min-width: $desktop) {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      max-width: 1184px;
+      margin: 0 auto;
+    }
+  }
+    &__header {
     font-weight: bold;
     font-size: 36px;
     line-height: 48px;
     text-align: center;
+    @media (min-width: $desktop) {
+      font-size: 48px;
+      line-height: 56px;
+    }
   }
 }
 .skills-list {
@@ -35,7 +47,7 @@
       width: 12px;
       height: 9px;
       background: url("../../src/pictures/small-tick-green.svg");
-      .skills-list--blue &{
+      .skills-list--blue & {
         background: url("../../src/pictures/small-tick-blue.svg");
       }
       .skills-list--dot & {

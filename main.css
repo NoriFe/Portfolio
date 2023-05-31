@@ -6,6 +6,9 @@
     .portfolio {
       max-width: 768px;
       margin: 0 auto; } }
+  @media (min-width: 960px) {
+    .portfolio {
+      max-width: 100%; } }
   .portfolio__cloud {
     position: absolute;
     left: calc(50% + 90px);
@@ -22,6 +25,24 @@
     text-decoration: none; }
   .portfolio__description {
     text-align: center; }
+    @media (min-width: 960px) {
+      .portfolio__description {
+        max-width: 786px;
+        margin: 0 auto;
+        position: relative; }
+        .portfolio__description::before, .portfolio__description::after {
+          width: 82.94px;
+          height: 254.88px;
+          content: "";
+          display: block;
+          position: absolute;
+          top: 0; }
+        .portfolio__description::before {
+          background: url(../../src/pictures/left.svg);
+          right: 100%; }
+        .portfolio__description::after {
+          background: url(../../src/pictures/right.svg);
+          left: 100%; } }
   .portfolio__header {
     font-size: 26px;
     line-height: 32px;
@@ -82,18 +103,28 @@
       .portfolio__paragraph {
         font-size: 20px;
         line-height: 40px; } }
-  .portfolio__specail {
+  .portfolio__special {
     color: #1070ca; }
 
 .skills {
   background: #1070ca;
   color: #fff;
   padding: 64px 16px 88px; }
+  @media (min-width: 960px) {
+    .skills__columns {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      max-width: 1184px;
+      margin: 0 auto; } }
   .skills__header {
     font-weight: bold;
     font-size: 36px;
     line-height: 48px;
     text-align: center; }
+    @media (min-width: 960px) {
+      .skills__header {
+        font-size: 48px;
+        line-height: 56px; } }
 
 .skills-list {
   font-style: normal;
@@ -145,7 +176,7 @@
 .contact {
   background: #dbeaf7;
   padding: 64px 16px 88px; }
-  .contact__decription {
+  .contact__description {
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
