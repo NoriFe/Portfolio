@@ -248,6 +248,19 @@
     border-radius: 50%;
     box-shadow: 0px 4px 8px rgba(16, 112, 202, 0.15); }
 
+@keyframes wave {
+  0% {
+    transform: rotate(-10deg); }
+  50% {
+    transform: rotate(10deg); }
+  100% {
+    transform: rotate(-10deg); } }
+
+.hand {
+  display: inline-block;
+  animation: wave 1.25s ease-in-out infinite;
+  transform-origin: center center; }
+
 .projects {
   padding: 64px 16px 88px; }
   @media (min-width: 960px) {
@@ -347,7 +360,8 @@
       grid-template-columns: 1fr 1fr; } }
 
 html {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
 
 *,
 *:before,

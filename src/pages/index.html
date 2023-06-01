@@ -17,6 +17,7 @@
       content="https://maciejkorsan.com/wtf-gulp-starter/assets/img/cover.png"
     />
     <link href="/main.css" rel="stylesheet" type="text/css" />
+    <script src="../js/index.js"></script>
   </head>
   <body>
     <main>
@@ -24,7 +25,7 @@
         <div class="portfolio__image-container">
           <img class="portfolio__image" src="../pictures/noriFoto.jpg" />
           <span class="portfolio__cloud"
-            ><span class="portfolio__hello">Hey there!👋</span></span
+            ><span class="portfolio__hello">Hey there!<span class="hand">👋</span></span></span
           >
         </div>
         <div class="portfolio__description">
@@ -86,138 +87,16 @@
           </article>
         </div>
       </section>
-      <section class="projects">
-        <h2 class="projects__header" id="project">Recent project</h2>
+      <section class="projects" id="project">
+        <h2 class="projects__header">Recent project</h2>
         <p class="projects__description">
           I started my road in 2006-2007 and had first shot how html works and
           css but unfortunatly I had to stop it. After so many years I am back
           stronger and full of positive attitude and willingness to learn new
           codes !
         </p>
-        <div class="projects-grid">
-          <article class="project">
-            <div class="project__window">
-              <span class="project__circle"></span>
-              <span class="project__circle"></span>
-              <span class="project__circle"></span>
-            </div>
-            <div class="project__content">
-              <img src="../pictures/gitHubIcon.svg" alt="" />
-              <h3 class="project__grid project__title">
-                <span class="project__label">project:</span> <span>forms</span>
-              </h3>
-              <p class="project__grid project__grid--description">
-                <span class="project__label">description:</span>
-                <span>codes for forms</span>
-              </p>
-              <p class="project__grid">
-                <span class="project__label">demo:</span>
-                <span
-                  >&lt;<a
-                    class="project__link"
-                    href="#"
-                    title="some forms code - demo"
-                    >see_here</a
-                  >&gt;</span
-                >
-              </p>
-              <p class="project__grid">
-                <span class="project__label">github:</span>
-                <span
-                  ><span
-                    >&lt;<a
-                      class="project__link"
-                      href="#"
-                      title="some forms code - code"
-                      >see_here</a
-                    >&gt;</span
-                  >
-                </span>
-              </p>
-            </div>
-          </article>
-          <article class="project">
-            <div class="project__window">
-              <span class="project__circle"></span>
-              <span class="project__circle"></span>
-              <span class="project__circle"></span>
-            </div>
-            <div class="project__content">
-              <img src="../pictures/gitHubIcon.svg" alt="" />
-              <h3 class="project__grid project__title">
-                <span class="project__label">project:</span> <span>forms</span>
-              </h3>
-              <p class="project__grid project__grid--description">
-                <span class="project__label">description:</span>
-                <span>codes for forms</span>
-              </p>
-              <p class="project__grid">
-                <span class="project__label">demo:</span>
-                <span
-                  >&lt;<a
-                    class="project__link"
-                    href="#"
-                    title="some forms code - demo"
-                    >see_here</a
-                  >&gt;</span
-                >
-              </p>
-              <p class="project__grid">
-                <span class="project__label">github:</span>
-                <span
-                  ><span
-                    >&lt;<a
-                      class="project__link"
-                      href="#"
-                      title="some forms code - code"
-                      >see_here</a
-                    >&gt;</span
-                  >
-                </span>
-              </p>
-            </div>
-          </article>
-          <article class="project">
-            <div class="project__window">
-              <span class="project__circle"></span>
-              <span class="project__circle"></span>
-              <span class="project__circle"></span>
-            </div>
-            <div class="project__content">
-              <img src="../pictures/gitHubIcon.svg" alt="" />
-              <h3 class="project__grid project__title">
-                <span class="project__label">project:</span> <span>forms</span>
-              </h3>
-              <p class="project__grid project__grid--description">
-                <span class="project__label">description:</span>
-                <span>codes for forms</span>
-              </p>
-              <p class="project__grid">
-                <span class="project__label">demo:</span>
-                <span
-                  >&lt;<a
-                    class="project__link"
-                    href="#"
-                    title="some forms code - demo"
-                    >see_here</a
-                  >&gt;</span
-                >
-              </p>
-              <p class="project__grid">
-                <span class="project__label">github:</span>
-                <span
-                  ><span
-                    >&lt;<a
-                      class="project__link"
-                      href="#"
-                      title="some forms code - code"
-                      >see_here</a
-                    >&gt;</span
-                  >
-                </span>
-              </p>
-            </div>
-          </article>
+        <div class="projects-grid projects-grid--js">
+      
         </div>
       </section>
       <section class="contact" id="contact">
@@ -233,6 +112,8 @@
                   class="socials__icon"
                   src="../pictures/githubIconBlue.svg"
                   alt="github"
+                  target="_blank"
+                  rel="noopener noreferrer"
               /></a>
             </li>
 
@@ -245,6 +126,8 @@
                   class="socials__icon"
                   src="../pictures/fbIcon.svg"
                   alt="facebook"
+                  target="_blank"                  
+                  rel="noopener noreferrer"
                 />
               </a>
             </li>
