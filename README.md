@@ -1,4 +1,4 @@
-![cover] (./public/og.png)
+![cover] (/public/og.png)
 <<<<<<< HEAD
 # Norbert I`m looking for some opportunites to become Junior Frontend Developer
 =======
