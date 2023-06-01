@@ -1,4 +1,4 @@
-![cover] (https://github.com/NoriFe/Portfolio/blob/main/public/og.png)
+![cover](https://github.com/NoriFe/Portfolio/blob/main/public/og.png)
 
 # Norbert I`m looking for some opportunites to become Junior Frontend Developer
 
