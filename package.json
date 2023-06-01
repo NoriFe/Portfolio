@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "publish": "npm run publish",
     "sass": "npx node-sass -w src/scss/main.scss main.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
