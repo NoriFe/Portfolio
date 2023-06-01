@@ -1,6 +1,6 @@
 ![cover](https://github.com/NoriFe/Portfolio/blob/main/public/og.png)
 
-# Norbert I`m looking for some opportunites to become Junior Frontend Developer
+# I`m looking for some opportunites to become Junior Frontend Developer
 
 
 My simple online portfolio.
