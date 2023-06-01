@@ -1,5 +1,5 @@
-![cover] (https://NoriFe.github.io/og.png)
-# Norbert - Looking for some opportunites to become Junior Frontend Developer
+![cover] (./public/og.png)
+# Norbert I`m looking for some opportunites to become Junior Frontend Developer
 
 My simple online portfolio.
 
