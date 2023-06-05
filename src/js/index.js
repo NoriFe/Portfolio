@@ -56,5 +56,7 @@ fetch("https://api.github.com/users/NoriFe/repos")
         container.innerHTML += template;
       }
     }
+    console.log(res);
   })
   .catch((e) => console.log(e));
+  

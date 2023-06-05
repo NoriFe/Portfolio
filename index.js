@@ -58,3 +58,4 @@ fetch("https://api.github.com/users/NoriFe/repos")
     }
   })
   .catch((e) => console.log(e));
+  console.log(res);
