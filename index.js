@@ -1,28 +1,4 @@
-const mime = require('mime');
-const http = require('http');
-const fs = require('fs');
 
-http.createServer((req, res) => {
-  const filePath = 'index.js';
-  const mimeType = mime.getType(filePath);
-
-  res.setHeader('Content-Type', mimeType);
-
-  fs.readFile(filePath, (err, data) => {
-    if (err) {
-      // Handle error
-      res.statusCode = 500;
-      res.end('Internal Server Error');
-      return;
-    }
-
-    res.statusCode = 200;
-    res.end(data);
-  });
-}).listen(3000, () => {
-  console.log('Server is running on port 3000');
-
-});
 
 console.log("Hi! I`m Norbert - nice to meet you 😃");
 
