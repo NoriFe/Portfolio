@@ -39,10 +39,10 @@
           position: absolute;
           top: 0; }
         .portfolio__description::before {
-          background: url(../../src/pictures/left.svg);
+          background: url(../pictures/left.svg);
           right: 100%; }
         .portfolio__description::after {
-          background: url(../../src/pictures/right.svg);
+          background: url(../pictures/right.svg);
           left: 100%; } }
   .portfolio__header {
     font-size: 26px;

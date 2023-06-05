@@ -40,11 +40,11 @@
         top: 0;
       }
       &::before {
-        background: url(../../src/pictures/left.svg);
+        background: url(../pictures/left.svg);
         right:100%;
       }
       &::after {
-        background: url(../../src/pictures/right.svg);
+        background: url(../pictures/right.svg);
         left:100%;
       }
     }
