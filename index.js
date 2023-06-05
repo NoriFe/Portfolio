@@ -3,7 +3,7 @@ const http = require('http');
 const fs = require('fs');
 
 http.createServer((req, res) => {
-  const filePath = 'https://raw.githubusercontent.com/NoriFe/Portfolio/main/index.js';
+  const filePath = 'index.js';
   const mimeType = mime.getType(filePath);
 
   res.setHeader('Content-Type', mimeType);
