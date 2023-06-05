@@ -39,7 +39,7 @@
           position: absolute;
           top: 0; }
         .portfolio__description::before {
-          background: url(../pictures/left.svg);
+          background: url(../../../Portfolio/src/pictures/left.svg);
           right: 100%; }
         .portfolio__description::after {
           background: url(../pictures/right.svg);
