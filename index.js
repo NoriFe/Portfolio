@@ -13,7 +13,7 @@ fetch("https://api.github.com/users/NoriFe/repos")
           <span class="project__circle"></span>
         </div>
         <div class="project__content">
-          <img src="img/gitHubIcon.svg" alt="" />
+          <img src="public/img/gitHubIcon.svg" alt="" />
           <h3 class="project__grid project__title">
             <span class="project__label">project:</span> 
             <span>${name}</span>
