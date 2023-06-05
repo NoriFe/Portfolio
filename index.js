@@ -22,7 +22,7 @@ http.createServer((req, res) => {
 }).listen(3000, () => {
   console.log('Server is running on port 3000');
 
-
+});
 
 console.log("Hi! I`m Norbert - nice to meet you 😃");
 
@@ -85,4 +85,3 @@ fetch("https://api.github.com/users/NoriFe/repos")
     }
   })
   .catch((e) => console.log(e));
-});
