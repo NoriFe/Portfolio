@@ -21,8 +21,11 @@ http.createServer((req, res) => {
   });
 }).listen(3000, () => {
   console.log('Server is running on port 3000');
-});
+
+
+
 console.log("Hi! I`m Norbert - nice to meet you 😃");
+
 
 fetch("https://api.github.com/users/NoriFe/repos")
   .then((res) => res.json())
@@ -53,7 +56,7 @@ fetch("https://api.github.com/users/NoriFe/repos")
                 target="_blank"                
                 rel="noopener noreferrer"
                 class="project__link"
-                href="${homepage}"
+                href="${description}"
                 title="${name} - demo"
                 >see_here</a
               >&gt;</span
@@ -82,3 +85,4 @@ fetch("https://api.github.com/users/NoriFe/repos")
     }
   })
   .catch((e) => console.log(e));
+});
