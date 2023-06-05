@@ -42,7 +42,7 @@
           background: url(../../../Portfolio/src/pictures/left.svg);
           right: 100%; }
         .portfolio__description::after {
-          background: url(../pictures/right.svg);
+          background: url(../../../Portfolio/src/pictures/right.svg);
           left: 100%; } }
   .portfolio__header {
     font-size: 26px;
@@ -73,7 +73,7 @@
           display: block;
           width: 17.42px;
           height: 22.66px;
-          background: url(../../src/pictures/Speech_cloud.svg); } }
+          background: url(../../../Portfolio/src/pictures/Speech_cloud.svg); } }
   .portfolio__image {
     box-sizing: content-box;
     width: 96px;
@@ -154,9 +154,9 @@
       content: "";
       width: 12px;
       height: 9px;
-      background: url("../../src/pictures/small-tick-green.svg"); }
+      background: url("../../../Portfolio/src/pictures/small-tick-green.svg"); }
       .skills-list--blue .skills-list__item:before {
-        background: url("../../src/pictures/small-tick-blue.svg"); }
+        background: url("../../../Portfolio/src/pictures/small-tick-blue.svg"); }
       .skills-list--dot .skills-list__item:before {
         background: #dbeaf7;
         width: 3px;

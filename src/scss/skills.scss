@@ -47,9 +47,9 @@
       content: "";
       width: 12px;
       height: 9px;
-      background: url("../../src/pictures/small-tick-green.svg");
+      background: url("../../../Portfolio/src/pictures/small-tick-green.svg");
       .skills-list--blue & {
-        background: url("../../src/pictures/small-tick-blue.svg");
+        background: url("../../../Portfolio/src/pictures/small-tick-blue.svg");
       }
       .skills-list--dot & {
         background: $lighterBlue;

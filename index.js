@@ -1,7 +1,4 @@
-
-
 console.log("Hi! I`m Norbert - nice to meet you 😃");
-
 
 fetch("https://api.github.com/users/NoriFe/repos")
   .then((res) => res.json())
@@ -32,7 +29,7 @@ fetch("https://api.github.com/users/NoriFe/repos")
                 target="_blank"                
                 rel="noopener noreferrer"
                 class="project__link"
-                href="${description}"
+                href="${homepage}"
                 title="${name} - demo"
                 >see_here</a
               >&gt;</span
