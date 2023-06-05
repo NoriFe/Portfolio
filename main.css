@@ -1,4 +1,4 @@
-@import url(../../../Portfolio/node_modules/normalize.css/normalize.css);
+@import url(../../../Portfolio/normalize.css);
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700&family=Roboto+Mono:wght@400;700&display=swap");
 .portfolio {
   padding: 74px 16px 88px; }
