@@ -381,13 +381,13 @@ template {
   .portfolio__image {
     box-sizing: content-box;
     width: 96px;
-    height: 130px;
+    height: 96px;
     border-radius: 50%;
     border: 16px solid #f6f9fd; }
     @media (min-width: 960px) {
       .portfolio__image {
         width: 178px;
-        height: 200px;
+        height: 178px;
         border: 24px solid #f6f9fd; } }
   .portfolio__image-container {
     display: flex;
