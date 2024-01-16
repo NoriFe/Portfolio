@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "http://localhost:3000/",
   "main": "index.js",
   "scripts": {
     "publish": "npm run publish",
